@@ -1,0 +1,84 @@
+/* General styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+#main-title {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Table styling */
+#planet-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+#planet-table thead {
+  background-color: #4b6cb7;
+  color: white;
+}
+
+#planet-table th, #planet-table td {
+  border: 1px solid #cccccc;
+  padding: 12px;
+  text-align: center;
+}
+
+#planet-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#planet-table td:first-child {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 40px;
+  font-style: italic;
+  color: #777;
+}
+
+/* Extra declarations */
+table th:hover {
+  background-color: #34495e;
+  cursor: default;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+}
+.planet-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
